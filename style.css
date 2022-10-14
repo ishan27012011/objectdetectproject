@@ -1,0 +1,25 @@
+.container{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+
+.btn{
+border: none;
+margin: 20px;
+padding: 24px;
+width: 220px;
+font-family: "montserrat", sans-serif;
+text-transform: uppercase;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.6s;
+background-image: linear-gradient(to right,#12CBC4, #0652DD );
+color: white;
+font-weight: bolder;
+}
+.btn:hover{
+    background-image: linear-gradient(to right, skyblue, darkblue );
+}
